@@ -1,0 +1,40 @@
+-- This is a generated file
+-- Do not modify it, unless you know exactly what you are doing
+
+ModId = "3e7e1ecc-e705-4b90-86ad-74f9e93e95dc"
+
+IdMap = {
+	{ "FOUNTAIN", "BUILDING", "f54f5c33-9d4e-4bb0-9bd3-d4ba6f70e63b" },
+	{ "FOUNTAIN_PART", "BUILDING_PART", "18c7f456-48d1-4ba5-a342-94ed71e15694" },
+	{ "SUPER_QUEST", "ABSTRACT_QUEST", "7bd915a6-2eef-4b4a-b05b-a8eccd493620" },
+	{ "SUPER_EVENT", "EVENT", "1c2ce560-4a99-4c7c-9d2a-18b23be7aff8" },
+	{ "models/FountainColor.png", "", "12966bbe-fcf0-4cab-acf4-d1e7fe836f06" },
+	{ "models/Water.png", "", "88065dce-fb7c-4751-8d9c-6427d725300f" },
+	{ "VILLAGE_AVIGNON", "TRADING_VILLAGE", "dadaa440-36ed-4d09-95f1-7061e43a9561" },
+	{ "models/fountain.fbx", "", "47729f28-5969-4244-8f65-34ce78195f44" },
+	{ "ASTEROID_ROCK", "RESOURCE", "e9910f1d-325c-47cc-980b-799c228e088b" },
+	{ "icons/asteroid rock.png", "", "42fa6c97-d7b0-4a84-9f18-3a9ee5b84b6e" },
+	{ "MY_MOD_BUILDING_PROGRESS_LIST", "BUILDING_PROGRESS_LIST", "09503f0b-0c16-4dbe-a353-c65415b5d6ef" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/GuardingLocation1", "", "cf01dded-4ce5-4454-8518-27f8c15b5ca3" },
+	{ "models/soldier_locator.fbx", "", "e1fa7456-8963-47d0-a9ac-c96690c81c6b" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/AgentData", "", "6d041556-70b5-458f-89e3-10408b6c9e43" },
+	{ "SOLDIER_PATROL_LOCATOR_PART", "BUILDING_PART", "89ce81b3-55d6-4b64-aa81-e30e3ccd5b2f" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR", "BEHAVIOR_TREE", "1d486bc2-6d26-4406-bc87-622b847757dc" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/GuardingLocationDistance", "", "2b87f081-cd6c-4f6c-bcf1-7868eaba7f2d" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/WorkplaceLocation", "", "394e5335-793e-406b-9eba-b1c54690cfed" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/GuardingLocation2", "", "6a7ad553-1997-4014-8fa8-b397d1281e39" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/GuardRepeatData", "", "7089a3ef-11dd-4db6-8802-0f34aa7e925e" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/GuardTimer", "", "44f39b4c-7ffa-48c4-8f60-1ec67714253f" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/Root", "", "393527e6-d02f-4bf3-82fa-6bb57cee73df" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/GlobalSequencer", "", "5879f032-16cd-4e96-8540-44ef60b8f49d" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/SetupGuardLocatorPost", "", "161846d2-d0e9-49d2-a8ed-246c53b5eebc" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/Repeater", "", "f2140643-e5ed-45f0-84f8-aa9e5b356f2e" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/GuardSequencer", "", "1056ff2d-0742-47f6-813f-da920a0eafaa" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/GoToLocation1", "", "a1f59873-d54c-445b-9206-ea1dc35503b7" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/SetRotationLocation1", "", "937d9225-71a9-4187-893e-186130199f80" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/WaitLocation1", "", "6d7b585c-bfb8-4a6d-8699-d549c3dacc7c" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/GoToLocation2", "", "b343b436-8088-44e8-90a1-c1eacfecac75" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/SetRotationLocation2", "", "fe04c25e-5f11-4122-b860-1d2027e52d44" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/WaitLocation2", "", "41deff61-d6bc-4b79-812d-99b482d23ae8" },
+	{ "BEHAVIOR_SOLDIER_GUARD_LOCATOR/FinishGuardLocatorPost", "", "40b50a4c-8fe7-4d02-806b-ab24a478af3c" },
+}

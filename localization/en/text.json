@@ -1,0 +1,18 @@
+﻿{
+	"BALANCING_NAMES" : {
+		"MY_MOD_SUPER_BALANCING":"Balancing Mod Demo"
+	},
+	"BUILDINGS": {
+		"MY_MOD_FOUNTAIN": "Mod Fountain"
+	},
+	"BUILDING_DESCRIPTIONS": {
+		"MY_MOD_FOUNTAIN_DESC": "A Fountain Coming from a mod"
+	},
+	"RESOURCES": {
+		"ASTEROID_ROCK": "Asteroid Rock"
+	},
+	"EVENTS": {
+		"THE_GREAT_QUEST": "The Great Quest",
+		"THE_GREAT_QUEST_DESCRIPTION": "Welcome to the greatest quest of all! You've decided to build your first lumber camp, so you now have to regularly deliver wood, in exchange for some novelty resources!"
+	}
+}

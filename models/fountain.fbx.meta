@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="47729f28-5969-4244-8f65-34ce78195f44">
+	<meta id="0a3c799d-f780-413c-a072-1bf8820abdd4" type="group" folder="true" name="Materials">
+		<meta id="c3abfdb0-ea04-4d0c-a70c-1ddc717fe162" name="Water"/>
+		<meta id="337577ee-d1d7-4dd1-a304-b23c45722f67" name="FountainColor"/>
+	</meta>
+	<meta id="23cc2ed0-5089-4fd5-9670-9ecef3df1a4f" type="group" folder="true" name="Meshes">
+		<meta id="86fcab03-7ae5-487f-964b-7aff9f3ee743" name="Fountain_Water"/>
+		<meta id="305937b0-c325-49c3-9a81-b1bef33c1883" name="Fountain_FountainColor"/>
+		<meta id="fdee5a78-b782-4c16-a5f9-f9d450da541f" name="Step_0_0_FountainColor"/>
+		<meta id="d32c4396-6daf-4091-8616-b824e153b7ef" name="Step_1_0_FountainColor"/>
+		<meta id="d0c9245b-be67-4dfa-8270-65671f1f96c2" name="Step_2_0_FountainColor"/>
+		<meta id="8a2ccf77-283b-488e-9fe6-e44b21b4db7c" name="Step_3_0_FountainColor"/>
+		<meta id="45063d47-e31a-46dc-8c97-2bb5c61e8503" name="Step_4_0_FountainColor"/>
+	</meta>
+	<meta id="62f4be21-47b9-4ae3-b67a-78331aea661b" name="Prefab">
+		<meta id="107b6267-aae4-4b92-97f5-fc5172171495" name="Fountain">
+			<meta id="f619b85d-201f-4705-99c0-44e1844c9e64" name="Fountain_0"/>
+			<meta id="29ee2679-30c7-4b38-8775-6690796ec642" name="Fountain_1"/>
+		</meta>
+		<meta id="154fb608-c93c-4eb3-b2da-0b5eba7ceb2c" name="Fountain_Construction_Steps">
+			<meta id="55087f9b-e401-4ca8-99eb-b30b03832c9c" name="Step_0">
+				<meta id="60691319-c0c7-4edb-9177-560d76b8bee3" name="Step_0_0"/>
+			</meta>
+			<meta id="6b6b8274-35d2-4368-949e-aaeda826f460" name="Group_1">
+				<meta id="50ce2b7d-0571-413b-a753-4313bc3fc22c" name="Step_1_0"/>
+			</meta>
+			<meta id="f3e7f975-2005-462e-9907-ccfb6e9d11f9" name="Group_2">
+				<meta id="5f949802-b50f-4ff8-af5e-43d230dfc5f9" name="Step_2_0"/>
+			</meta>
+			<meta id="d3a01fdd-a0a8-4503-a59e-3ccfcb47d5d3" name="Group_3">
+				<meta id="0d8b46ab-c47d-49c3-9dc7-3a7d2fa9ffa1" name="Step_3_0"/>
+			</meta>
+			<meta id="999a3c55-96dd-44dd-9d84-cca13a0e982d" name="Group_4">
+				<meta id="374980f7-18d7-4b61-b929-6715cf289afd" name="Step_4_0"/>
+			</meta>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="0760e9e72d27b05e3a3e1c97d51c7988"/>
+	<ModelVersion value="30"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<ZUpSource value="false"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Fountain_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Fountain_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Fountain"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="Step_0_0"/>
+							</Item>
+						</ChildList>
+						<NodeName value="Step_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="Step_1_0"/>
+							</Item>
+						</ChildList>
+						<NodeName value="Group_1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="Step_2_0"/>
+							</Item>
+						</ChildList>
+						<NodeName value="Group_2"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="Step_3_0"/>
+							</Item>
+						</ChildList>
+						<NodeName value="Group_3"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="Step_4_0"/>
+							</Item>
+						</ChildList>
+						<NodeName value="Group_4"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Fountain_Construction_Steps"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="337577ee-d1d7-4dd1-a304-b23c45722f67"/>
+			<MaterialName value="FountainColor"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="c3abfdb0-ea04-4d0c-a70c-1ddc717fe162"/>
+			<MaterialName value="Water"/>
+		</Item>
+	</MaterialList>
+</importer>
+

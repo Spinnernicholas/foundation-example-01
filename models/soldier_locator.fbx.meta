@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="e1fa7456-8963-47d0-a9ac-c96690c81c6b">
+	<meta id="673c83cf-ff90-4509-8b28-539aae2e3128" type="group" folder="true" name="Materials">
+		<meta id="940340f1-db2c-49ad-b444-995551b58774" name="Material"/>
+	</meta>
+	<meta id="fd85608d-18ed-4a0b-808d-f4cd6def9ea4" type="group" folder="true" name="Meshes">
+		<meta id="bc7a027b-9175-4b11-8c66-374f968975ac" name="Arrow_Material"/>
+	</meta>
+	<meta id="3cb25eef-c5f5-4f98-9928-d063cd138fcb" name="Prefab">
+		<meta id="775f603e-b4ca-4b4b-98be-d6ad8dca086d" scriptingId="PREFAB_SOLDIER_LOCATOR" name="Arrow"/>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="731d991dc77e301f082c3ec2adbcf10c"/>
+	<ModelVersion value="30"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<ZUpSource value="false"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Arrow"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="940340f1-db2c-49ad-b444-995551b58774"/>
+			<MaterialName value="Material"/>
+		</Item>
+	</MaterialList>
+</importer>
+
