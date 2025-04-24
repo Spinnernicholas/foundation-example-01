@@ -24,15 +24,16 @@ local VILLAGE_AVIGNON = {
 
 myMod:registerAsset(VILLAGE_AVIGNON)
 
---TODO: Figure out how asset overrides work - Can we add the datatype field?
-myMod:overrideAsset({
+---@type BUILDING_PART
+local BUILDING_PART_LUMBER_CAMP = {
+	DataType = 'BUILDING_PART',
 	Id = "BUILDING_PART_LUMBER_CAMP",
 	Cost = {
 		BuildRightTaxes = {
-			{ Resource = "GOLD", Quantity = 5 },
+			{ Resource = "GOLD_COINS", Quantity = 5 },
 		},
 		UpkeepCost = {
-			{ Resource = "GOLD", Quantity = 5 },
+			{ Resource = "GOLD_COINS", Quantity = 5 },
 		},
 		ResourceNeededList = {
 			{
@@ -40,14 +41,17 @@ myMod:overrideAsset({
 			},
 		}
 	},
-})
+}
 
---TODO: Figure out how asset overrides work - Can we add the datatype field?
-myMod:overrideAsset({
+myMod:overrideAsset(BUILDING_PART_LUMBER_CAMP)
+
+---@type BUILDING_PART
+local BUILDING_PART_WELL = {
+	DataType = 'BUILDING_PART',
 	Id = "BUILDING_PART_WELL",
 	Cost = {
 		BuildRightTaxes = {
-			{ Resource = "GOLD", Quantity = 15 }
+			{ Resource = "GOLD_COINS", Quantity = 15 }
 		},
 		UpkeepCost = {},
 		ResourceNeededList = {
@@ -61,21 +65,27 @@ myMod:overrideAsset({
 			},
 		}
 	},
-})
+}
+
+myMod:overrideAsset(BUILDING_PART_WELL)
 
 -- Override default village list
---TODO: Figure out how asset overrides work - Can we add the datatype field?
-myMod:overrideAsset({
+---@type TRADING_VILLAGE_LIST
+local VILLAGE_LIST_DEFAULT = {
+	DataType = 'TRADING_VILLAGE_LIST',
 	Id = "VILLAGE_LIST_DEFAULT",
 	TradingVillageList = {
 		Action = "APPEND", -- Append the following value(s) to the existing list
 		"VILLAGE_AVIGNON"
 	}
-})
+}
+
+myMod:overrideAsset(VILLAGE_LIST_DEFAULT)
 
 -- Override default balancing
---TODO: Figure out how asset overrides work - Can we add the datatype field?
-myMod:overrideAsset({
+---@type BALANCING
+local DEFAULT_BALANCING = {
+	DataType ='BALANCING',
 	Id = "DEFAULT_BALANCING",
 	Name = "MY_MOD_SUPER_BALANCING",
 	TerritoryPrice = {
@@ -104,10 +114,12 @@ myMod:overrideAsset({
 		Action = "APPEND", -- Append the following value(s) to the existing list
 		"SUPER_EVENT"
 	},
-})
+}
+myMod:overrideAsset(DEFAULT_BALANCING)
 
---TODO: Figure out how asset overrides work - Can we add the datatype field?
-myMod:overrideAsset({
+---@type NAME_LIST
+local NAME_LIST_ENGLISH = {
+	DataType = 'NAME_LIST',
 	Id = "NAME_LIST_ENGLISH",
 	MaleNameList = {
 		Action = "APPEND",
@@ -116,4 +128,6 @@ myMod:overrideAsset({
 		"Leofrick", "Letholdus", "Lief", "Barda", "Rulf", "Robin", "Gavin", "Terrin", "Terryn", "Ronald", "Jarin", "Cassius", "Leo", "Cedric", "Peyton", "Josef", "Janshai", "Doran", "Asher", "Quinn", 
 		"Zane", "Xalvador", "Favian", "Destrian", "Dain", "Berinon", "Tristan", "Gorvenal"
 	},
-})
+}
+
+myMod:overrideAsset(NAME_LIST_ENGLISH)

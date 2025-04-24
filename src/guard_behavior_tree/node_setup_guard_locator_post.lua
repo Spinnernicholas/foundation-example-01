@@ -42,7 +42,7 @@ mod:registerBehaviorTreeNode({
 		local selectedLocatorObject = selectedLocator:getOwner()
 		self.WorkplaceLocation:setDestination(selectedLocatorObject)
 		
-		local firstGuardSpot, secondGuardSpot = nil
+		local firstGuardSpot, secondGuardSpot = nil, nil
 		if (math.random() < 0.5) then
 			firstGuardSpot = self.GuardingLocation1
 			secondGuardSpot = self.GuardingLocation2

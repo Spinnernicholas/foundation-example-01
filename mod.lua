@@ -7,24 +7,19 @@ local myMod = foundation.createMod()
 
 myMod:registerAssetId("models/fountain.fbx/Prefab/Fountain", "PREFAB_FOUNTAIN")
 myMod:registerAssetId("models/fountain.fbx/Prefab/Fountain_Construction_Steps", "PREFAB_FOUNTAIN_CONSTRUCTION")
+
 myMod:registerAssetId("icons/asteroid rock.png", "ICON_ASTEROID_ROCK", "ATLAS_CELL")
 
-myMod:dofile("buildings.lua")
-myMod:dofile("events.lua")
-myMod:dofile("balancing.lua")
-
-myMod:dofile("guard_behavior_tree/node_setup_guard_locator_post.lua")
-myMod:dofile("guard_behavior_tree/node_finish_guard_locator_post.lua")
-myMod:dofile("guard_behavior_tree/behavior_soldier_guard_locator.lua")
-myMod:dofile("guard_behavior_tree/wooden_keep_locator_part.lua")
-
-
 myMod:registerEnumValue("RESOURCE_TYPE", "SPACE_LUXURY")
----@diagnostic disable-next-line: duplicate-doc-alias
----@enum RESOURCE_TYPE
-RESOURCE_TYPE = {
-	SPACE_LUXURY = "SPACE_LUXURY"
-}
+
+myMod:dofile("src/buildings.lua")
+myMod:dofile("src/events.lua")
+myMod:dofile("src/balancing.lua")
+
+myMod:dofile("src/guard_behavior_tree/node_setup_guard_locator_post.lua")
+myMod:dofile("src/guard_behavior_tree/node_finish_guard_locator_post.lua")
+myMod:dofile("src/guard_behavior_tree/behavior_soldier_guard_locator.lua")
+myMod:dofile("src/guard_behavior_tree/wooden_keep_locator_part.lua")
 
 --
 ---@type RESOURCE

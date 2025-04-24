@@ -25,7 +25,7 @@ local FOUNTAIN_PART = {
 	BuildingZone = {
 		ZoneEntryList = {
 			{
-				Polygon = polygon.createCircle(2.5), -- TODO: Fix polygon not recognized
+				Polygon = polygon.createCircle(2.5),
 				Type = {
 					DEFAULT = true
 				}
@@ -35,7 +35,7 @@ local FOUNTAIN_PART = {
 	ConstructionVisual = "PREFAB_FOUNTAIN_CONSTRUCTION",
 	Cost = {
 		UpkeepCost = {
-			{ Resource = "GOLD", Quantity = 5 }
+			{ Resource = "GOLD_COINS", Quantity = 5 }
 		},
 		ResourceNeededList = {
 			{
