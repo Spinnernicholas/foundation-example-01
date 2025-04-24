@@ -74,7 +74,7 @@ local SUPER_EVENT = {
 	ConditionList = {
 		{
 			DataType = "GAME_CONDITION_BUILDING_BUILT",
-			AssetBuilding = "BUILDING_WOODCUTTER_CAMP",
+			AssetBuilding = "BUILDING_LUMBER_CAMP",
 		},
 		{
 			DataType = "GAME_CONDITION_POPULATION_COUNT",

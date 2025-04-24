@@ -37,6 +37,7 @@ local ASTEROID_ROCK_RESOURCE = {
 	TradeBuyingPrice = { { Resource = "GOLD_COINS", Quantity = 7 } },
 	TradeSellingPrice = { { Resource = "WOOD", Quantity = 5 } },
 	DisplayInToolbar = true,
-	ResourceVisualPrefab = "PREFAB_RESOURCE_VISUAL_CRATE",
+	ResourceVisualPrefabList = { "PREFAB_RESOURCE_VISUAL_CRATE" },
+	IndividualResourceVisualPrefabList = { "PREFAB_RESOURCE_VISUAL_CRATE" }
 }
 myMod:registerAsset(ASTEROID_ROCK_RESOURCE)

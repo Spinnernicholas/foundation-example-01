@@ -52,7 +52,7 @@ mod:registerAsset({
 	Description = "SOLDIER_GUARD_LOCATOR_DESC",
 	Category = BUILDING_PART_TYPE.LOCATOR,
 	IsVisibleWhenBuilt = false,
-	IsMovableWhenBuilt = true,
+	IsMovableWhenBuilt = true, --TODO: IsMovableWhenBuilt is no longer available
 	IsShowInUi = true,
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
@@ -65,13 +65,15 @@ mod:registerAsset({
 --------------------------------------------------------------------------
 -- Add this building part to the wooden keep's part list
 mod:overrideAsset({
-	Id = "MONUMENT_WOODEN_KEEP",
+	Id = "MONUMENT_CASTLE",
 	AssetBuildingPartList = {
 		Action = "APPEND",
 		"SOLDIER_PATROL_LOCATOR_PART",
 	},
 })
 
+
+--TODO: What asset replaced BUILDING_FUNCTION_WOODEN_KEEP?
 --------------------------------------------------------------------------
 -- Add the new behavior tree to the wooden keep activity list
 mod:overrideAsset({

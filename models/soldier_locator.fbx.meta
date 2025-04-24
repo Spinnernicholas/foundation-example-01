@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<meta id="e1fa7456-8963-47d0-a9ac-c96690c81c6b">
+<meta id="8b0b8b54-9970-43f8-9e01-bc5d123522d7">
 	<meta id="673c83cf-ff90-4509-8b28-539aae2e3128" type="group" folder="true" name="Materials">
 		<meta id="940340f1-db2c-49ad-b444-995551b58774" name="Material"/>
 	</meta>
@@ -11,8 +11,9 @@
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
+	<WorkFilePath value="utf8:"/>
 	<Md5Checksum value="731d991dc77e301f082c3ec2adbcf10c"/>
-	<ModelVersion value="30"/>
+	<ModelVersion value="36"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>

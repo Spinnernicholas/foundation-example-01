@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<meta id="47729f28-5969-4244-8f65-34ce78195f44">
+<meta id="f71f0eec-aedd-46c4-b22b-45f53b9b9ba5">
 	<meta id="0a3c799d-f780-413c-a072-1bf8820abdd4" type="group" folder="true" name="Materials">
 		<meta id="c3abfdb0-ea04-4d0c-a70c-1ddc717fe162" name="Water"/>
 		<meta id="337577ee-d1d7-4dd1-a304-b23c45722f67" name="FountainColor"/>
@@ -38,8 +38,9 @@
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
+	<WorkFilePath value="utf8:"/>
 	<Md5Checksum value="0760e9e72d27b05e3a3e1c97d51c7988"/>
-	<ModelVersion value="30"/>
+	<ModelVersion value="36"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>

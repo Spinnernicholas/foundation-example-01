@@ -1,3 +1,4 @@
+---@type Mod
 local mod = ...
 
 --------------------------------------------------------------------------
@@ -36,7 +37,7 @@ mod:registerBehaviorTree({
 			DataType = "BEHAVIOR_TREE_DATA_WAIT",
 			InitialValue = {
 				TimeToWait = 10.0,
-				Animation = AGENT_ANIMATION.GUARD,
+				Animation = AGENT_ANIMATION_STATE.GUARD,
 			}
 		},
 	},

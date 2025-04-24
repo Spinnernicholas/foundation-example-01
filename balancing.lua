@@ -7,9 +7,11 @@ local VILLAGE_AVIGNON = {
 	Id = "VILLAGE_AVIGNON",
 	VillageName = "Avignon",
 	Heraldry = "HERALDRY_MYDDLE",
-	UnlockCost = { 
-		{ Resource = "WOOD", Quantity = 5 },
-		{ Resource = "STONE", Quantity = 10 },
+	UnlockableCost = {
+		ResourceCollection = {
+			{ Resource = "WOOD", Quantity = 5 },
+			{ Resource = "STONE", Quantity = 10 },
+		},
 	},
 	ResourceNeededToUpgrade = "HERBS",
 	BuyingResourceList = { "ASTEROID_ROCK" },
@@ -24,7 +26,7 @@ myMod:registerAsset(VILLAGE_AVIGNON)
 
 --TODO: Figure out how asset overrides work - Can we add the datatype field?
 myMod:overrideAsset({
-	Id = "BUILDING_PART_WOODCUTTER_CAMP",
+	Id = "BUILDING_PART_LUMBER_CAMP",
 	Cost = {
 		BuildRightTaxes = {
 			{ Resource = "GOLD", Quantity = 5 },
