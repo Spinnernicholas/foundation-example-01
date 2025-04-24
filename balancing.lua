@@ -1,7 +1,8 @@
-
+---@type Mod
 local myMod = ...
 
-myMod:registerAsset({
+---@type TRADING_VILLAGE
+local VILLAGE_AVIGNON = {
 	DataType = "TRADING_VILLAGE",
 	Id = "VILLAGE_AVIGNON",
 	VillageName = "Avignon",
@@ -11,22 +12,17 @@ myMod:registerAsset({
 		{ Resource = "STONE", Quantity = 10 },
 	},
 	ResourceNeededToUpgrade = "HERBS",
-	BuyingResourceList = {
-		{
-			ResourceMaxAmount = { Resource = "ASTEROID_ROCK", Quantity = 5 },
-		}
-	},
-	SellingResourceList = {
-		{
-			ResourceMaxAmount = { Resource = "ASTEROID_ROCK", Quantity = 5 },
-		}
-	},
+	BuyingResourceList = { "ASTEROID_ROCK" },
+	SellingResourceList = { "ASTEROID_ROCK" },
 	TradeRouteUpgradeNarrativePanelTemplate = "NARRATIVE_PANEL_TEMPLATE_TRADE_ROUTE_UPGRADE",
 	UpgradeEventEnvoyProfile = "PROFILE_ENVOY_ROYAL",
 	WorldGuiIcon = "ICON_TRADE",
 	Allegiance = "KINGDOM",
-})
+}
 
+myMod:registerAsset(VILLAGE_AVIGNON)
+
+--TODO: Figure out how asset overrides work - Can we add the datatype field?
 myMod:overrideAsset({
 	Id = "BUILDING_PART_WOODCUTTER_CAMP",
 	Cost = {
@@ -44,6 +40,7 @@ myMod:overrideAsset({
 	},
 })
 
+--TODO: Figure out how asset overrides work - Can we add the datatype field?
 myMod:overrideAsset({
 	Id = "BUILDING_PART_WELL",
 	Cost = {
@@ -65,6 +62,7 @@ myMod:overrideAsset({
 })
 
 -- Override default village list
+--TODO: Figure out how asset overrides work - Can we add the datatype field?
 myMod:overrideAsset({
 	Id = "VILLAGE_LIST_DEFAULT",
 	TradingVillageList = {
@@ -74,6 +72,7 @@ myMod:overrideAsset({
 })
 
 -- Override default balancing
+--TODO: Figure out how asset overrides work - Can we add the datatype field?
 myMod:overrideAsset({
 	Id = "DEFAULT_BALANCING",
 	Name = "MY_MOD_SUPER_BALANCING",
@@ -105,6 +104,7 @@ myMod:overrideAsset({
 	},
 })
 
+--TODO: Figure out how asset overrides work - Can we add the datatype field?
 myMod:overrideAsset({
 	Id = "NAME_LIST_ENGLISH",
 	MaleNameList = {

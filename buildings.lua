@@ -1,16 +1,20 @@
-
+---@type Mod
 local myMod = ...
 
-myMod:registerAsset({
+---@type BUILDING
+local FOUNTAIN = {
 	DataType = "BUILDING",
 	Id = "FOUNTAIN",
 	Name = "MY_MOD_FOUNTAIN",
 	Description = "MY_MOD_FOUNTAIN_DESC",
 	BuildingType = "DECORATION",
 	AssetCoreBuildingPart = "FOUNTAIN_PART",
-})
+}
 
-myMod:registerAsset({
+myMod:registerAsset(FOUNTAIN)
+
+---@type BUILDING_PART
+local FOUNTAIN_PART = {
 	DataType = "BUILDING_PART",
 	Id = "FOUNTAIN_PART",
 	Description = "",
@@ -21,7 +25,7 @@ myMod:registerAsset({
 	BuildingZone = {
 		ZoneEntryList = {
 			{
-				Polygon = polygon.createCircle(2.5),
+				Polygon = polygon.createCircle(2.5), -- TODO: Fix polygon not recognized
 				Type = {
 					DEFAULT = true
 				}
@@ -40,4 +44,6 @@ myMod:registerAsset({
 			},
 		}
 	}
-})
+}
+
+myMod:registerAsset(FOUNTAIN_PART)
